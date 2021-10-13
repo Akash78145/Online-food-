@@ -1,0 +1,193 @@
+#logo img{
+    width: 40px;
+    border-radius:50%;
+   margin: 10px 20px;
+   height:50px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    color: black;
+    
+    top:0px;
+    
+}
+#navbar ul{
+    display: flex;
+       
+}
+/* #navbar::before{
+   content: "";
+   background-color: black;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index:-1;
+   opacity:0.4;
+} */
+
+#navbar ul li{
+    list-style: none;
+    font-size:1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+       
+}
+#navbar ul li a{
+    color:black;
+    padding: 10px 35px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    
+    
+}
+#navbar ul li a:hover{
+    color:blueviolet;
+    background-color: black;
+
+}
+
+/* Home section */
+#home{
+    
+   
+    padding: 3px 100px;
+    justify-content: center;
+    text-align: center;
+    height: 633px;
+    min-height: calc(100vh - 100px);
+    background:linear-gradient( rgba(77, 72, 55, 0.5), rgba(116, 110, 88, 0.5)),url("img/a.jpg") center/cover fixed no-repeat;
+    position: relative;
+   
+    
+   
+}
+#home p{
+    color:white;
+    font-size: 1.5rem;
+font-family: 'Bree Serif', serif;
+}
+  #home h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    text-align: center;
+  }
+/* services classes */
+#services{
+    margin:34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding:34px;
+    margin: 6px 10px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+#services .box img{
+    height:156px;
+    margin:auto;
+    display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+/* Client Section */
+#client-section{
+   height: 344px;
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+    background: url('img/');
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+   height: 124px;
+}
+.client-item{
+    padding:54px;
+ }/*
+Contact section */
+#contant{
+    position:relative;}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 61%;
+    height: 48%;
+    
+}   
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    flex-direction: column;
+
+
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+} 
+footer{
+    background: black;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding:3px 24px;
+}
+
+/* Utility class */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 2px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding:12px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+} 
+.btn{
+    padding: 6px 20px;
+    border:3px solid rgb(31, 28, 28);
+    background-color:transparent;
+    color:white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.btn:hover{
+    color:black;
+    background-color: white;
+}
